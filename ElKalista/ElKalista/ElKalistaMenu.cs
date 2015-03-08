@@ -84,7 +84,7 @@ namespace ElKalista
             miscMenu.AddItem(new MenuItem("ElKalista.Draw.E", "Draw E").SetValue(new Circle()));
             miscMenu.AddItem(new MenuItem("ElKalista.Draw.R", "Draw R").SetValue(new Circle()));
 
-            var dmgAfterE = new MenuItem("ElKalista.DrawComboDamage", "Draw E damage", true).SetValue(true);
+            var dmgAfterE = new MenuItem("ElKalista.DrawComboDamage", "Draw E damage").SetValue(true);
             var drawFill = new MenuItem("ElKalista.DrawColour", "Fill colour", true).SetValue(new Circle(true, Color.FromArgb(204, 204, 0, 0)));
             miscMenu.AddItem(drawFill);
             miscMenu.AddItem(dmgAfterE);
