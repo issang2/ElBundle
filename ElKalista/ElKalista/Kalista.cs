@@ -116,8 +116,8 @@ namespace ElKalista
         {
             float damage = 0;
 
-            if (spells[Spells.Q].IsReady())
-                damage += spells[Spells.Q].GetDamage(enemy);
+            if (spells[Spells.E].IsReady())
+                damage += spells[Spells.E].GetDamage(enemy);
 
             return damage;
         }
